@@ -4,7 +4,9 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
         <a href="#" className="flex items-center gap-2">
           <img src="/DevLabs-Logo-Short.png" alt="DevLabs" className="h-12 w-auto" />
-          <span className="text-xs text-zinc-500 dark:text-zinc-400">&copy; 2026</span>
+          <span className="text-xl font-bold tracking-tight">
+            Dev<span className="text-blue-600 dark:text-blue-400">Labs</span>
+          </span>
         </a>
 
         <div className="flex items-center gap-4">
@@ -41,7 +43,7 @@ export default function Footer() {
 
       <div className="border-t border-zinc-200 dark:border-zinc-800">
         <p className="text-center text-sm text-zinc-500 dark:text-zinc-400 py-6">
-          2026 DevLabs . Código a tu medida
+          &copy; 2026 DevLabs . Código a tu medida
         </p>
       </div>
     </footer>
