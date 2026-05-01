@@ -5,7 +5,7 @@ export default function Footer() {
         <a href="#" className="flex items-center gap-2">
           <img src="/DevLabs-Logo-Short.png" alt="DevLabs" className="h-12 w-auto" />
           <span className="text-xl font-bold tracking-tight">
-            Dev<span className="text-blue-600 dark:text-blue-400">Labs</span>
+            Dev<span className="text-[#00CED1]">Labs</span>
           </span>
         </a>
 

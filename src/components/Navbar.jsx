@@ -5,15 +5,15 @@ export default function Navbar({ dark, setDark }) {
         <a href="#" className="flex items-center gap-2">
           <img src="/DevLabs-Logo-Short.png" alt="DevLabs" className="h-10 w-auto" />
           <span className="text-xl font-bold tracking-tight">
-            Dev<span className="text-blue-600 dark:text-blue-400">Labs</span>
+            Dev<span className="text-[#00CED1]">Labs</span>
           </span>
         </a>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium">
-          <a href="#home" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</a>
-          <a href="#about" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">About</a>
-          <a href="#projects" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Projects</a>
-          <a href="#contact" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Contact</a>
+          <a href="#home" className="hover:text-[#00CED1] transition-colors">Home</a>
+          <a href="#about" className="hover:text-[#00CED1] transition-colors">About</a>
+          <a href="#projects" className="hover:text-[#00CED1] transition-colors">Projects</a>
+          <a href="#contact" className="hover:text-[#00CED1] transition-colors">Contact</a>
         </div>
 
         <div className="flex items-center gap-3">

@@ -13,7 +13,7 @@ export default function Hero() {
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
             Hola! somos{' '}
-            <span className="text-blue-600 dark:text-blue-400">DevLabs</span>
+            <span className="text-[#00CED1]">DevLabs</span>
           </h1>
 
           <h2 className="text-2xl md:text-3xl font-semibold text-zinc-500 dark:text-zinc-400">
@@ -44,7 +44,7 @@ export default function Hero() {
         </div>
 
         <div className="relative flex justify-center md:justify-end">
-          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-blue-100 to-zinc-100 dark:from-blue-950 dark:to-zinc-800 flex items-center justify-center overflow-hidden border-4 border-white dark:border-zinc-800 shadow-lg">
+          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-[#00CED1]/20 to-zinc-100 dark:from-[#0047AB]/80 dark:to-zinc-800 flex items-center justify-center overflow-hidden border-4 border-white dark:border-zinc-800 shadow-lg">
             <img
               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=400&fit=crop"
               alt="Equipo de desarrollo DevLabs"

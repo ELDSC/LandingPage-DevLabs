@@ -23,7 +23,7 @@ export default function Projects() {
   return (
     <section id="projects" className="max-w-6xl mx-auto px-6 py-16 md:py-24">
       <div className="text-center mb-12">
-        <span className="text-xs font-semibold tracking-widest uppercase text-blue-600 dark:text-blue-400">
+        <span className="text-xs font-semibold tracking-widest uppercase text-[#00CED1]">
           featured work
         </span>
         <h2 className="text-3xl md:text-4xl font-bold mt-2">
@@ -45,7 +45,7 @@ export default function Projects() {
               />
             </div>
             <div className="p-5 space-y-4">
-              <span className="inline-block text-xs font-semibold tracking-wider uppercase text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950 px-3 py-1 rounded-full">
+              <span className="inline-block text-xs font-semibold tracking-wider uppercase text-[#00CED1] bg-[#00CED1]/10 dark:bg-[#0047AB]/30 px-3 py-1 rounded-full">
                 {project.tag}
               </span>
               <h3 className="text-lg font-bold">{project.title}</h3>
