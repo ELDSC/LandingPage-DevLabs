@@ -2,8 +2,8 @@ export default function Navbar({ dark, setDark }) {
   return (
     <nav className="sticky top-0 z-50 bg-white/90 dark:bg-zinc-950/90 backdrop-blur border-b border-zinc-200 dark:border-zinc-800">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#" className="text-xl font-bold tracking-tight">
-          Dev<span className="text-blue-600 dark:text-blue-400">Labs</span>
+        <a href="#">
+          <img src="/DevLabs-Logo-Short.png" alt="DevLabs" className="h-10 w-auto" />
         </a>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium">

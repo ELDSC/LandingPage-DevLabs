@@ -2,8 +2,9 @@ export default function Footer() {
   return (
     <footer id="contact" className="border-t border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900">
       <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
-        <a href="#" className="text-xl font-bold tracking-tight">
-          &copy; Dev<span className="text-blue-600 dark:text-blue-400">Labs</span>
+        <a href="#" className="flex items-center gap-2">
+          <img src="/DevLabs-Logo-Short.png" alt="DevLabs" className="h-8 w-auto" />
+          <span className="text-xs text-zinc-500 dark:text-zinc-400">&copy; 2026</span>
         </a>
 
         <div className="flex items-center gap-4">
