@@ -1,23 +1,106 @@
-import { FaReact, FaNodeJs, FaDocker, FaGitAlt, FaFigma } from 'react-icons/fa'
-import { SiVercel, SiPostgresql, SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb, SiPrisma } from 'react-icons/si'
+import { FaReact, FaNodeJs, FaDocker, FaGitAlt, FaFigma, FaJava, FaPython, FaDatabase } from "react-icons/fa";
+import {
+  SiVercel,
+  SiPostgresql,
+  SiNextdotjs,
+  SiTypescript,
+  SiTailwindcss,
+  SiMongodb,
+  SiPrisma,
+  SiMysql,
+  SiSpringboot,
+} from "react-icons/si";
 
 const technologies = [
-  { name: 'Vercel',     icon: <SiVercel className="w-5 h-5" />,     color: 'bg-[#000000]' },
-  { name: 'Figma',      icon: <FaFigma className="w-5 h-5" />,      color: 'bg-[#F24E1E]' },
-  { name: 'Git',        icon: <FaGitAlt className="w-5 h-5" />,     color: 'bg-[#F05032]' },
-  { name: 'React',      icon: <FaReact className="w-5 h-5" />,      color: 'bg-[#087EA4]' },
-  { name: 'PostgreSQL', icon: <SiPostgresql className="w-5 h-5" />,  color: 'bg-[#4169E1]' },
-  { name: 'Next.js',    icon: <SiNextdotjs className="w-5 h-5" />,   color: 'bg-[#000000]' },
-  { name: 'TypeScript', icon: <SiTypescript className="w-5 h-5" />,   color: 'bg-[#3178C6]' },
-  { name: 'Tailwind',   icon: <SiTailwindcss className="w-5 h-5" />, color: 'bg-[#06B6D4]' },
-  { name: 'Node.js',    icon: <FaNodeJs className="w-5 h-5" />,      color: 'bg-[#339933]' },
-  { name: 'Docker',     icon: <FaDocker className="w-5 h-5" />,      color: 'bg-[#2496ED]' },
-  { name: 'MongoDB',    icon: <SiMongodb className="w-5 h-5" />,     color: 'bg-[#47A248]' },
-  { name: 'Prisma',     icon: <SiPrisma className="w-5 h-5" />,      color: 'bg-[#2D3748]' },
-]
+  {
+    name: "Vercel",
+    icon: <SiVercel className="w-5 h-5" />,
+    color: "bg-[#000000]",
+  },
+  {
+    name: "Figma",
+    icon: <FaFigma className="w-5 h-5" />,
+    color: "bg-[#F24E1E]",
+  },
+  {
+    name: "Git",
+    icon: <FaGitAlt className="w-5 h-5" />,
+    color: "bg-[#F05032]",
+  },
+  {
+    name: "React",
+    icon: <FaReact className="w-5 h-5" />,
+    color: "bg-[#087EA4]",
+  },
+  {
+    name: "PostgreSQL",
+    icon: <SiPostgresql className="w-5 h-5" />,
+    color: "bg-[#4169E1]",
+  },
+  {
+    name: "Next.js",
+    icon: <SiNextdotjs className="w-5 h-5" />,
+    color: "bg-[#000000]",
+  },
+  {
+    name: "TypeScript",
+    icon: <SiTypescript className="w-5 h-5" />,
+    color: "bg-[#3178C6]",
+  },
+  {
+    name: "Tailwind",
+    icon: <SiTailwindcss className="w-5 h-5" />,
+    color: "bg-[#06B6D4]",
+  },
+  {
+    name: "Node.js",
+    icon: <FaNodeJs className="w-5 h-5" />,
+    color: "bg-[#339933]",
+  },
+  {
+    name: "Docker",
+    icon: <FaDocker className="w-5 h-5" />,
+    color: "bg-[#2496ED]",
+  },
+  {
+    name: "MongoDB",
+    icon: <SiMongodb className="w-5 h-5" />,
+    color: "bg-[#47A248]",
+  },
+  {
+    name: "Prisma",
+    icon: <SiPrisma className="w-5 h-5" />,
+    color: "bg-[#2D3748]",
+  },
+  {
+    name: "MySQL",
+    icon: <SiMysql className="w-5 h-5" />,
+    color: "bg-[#4479A1]",
+  },
+  {
+    name: "Java",
+    icon: <FaJava className="w-5 h-5" />,
+    color: "bg-[#ED8B00]",
+  },
+  {
+    name: "Spring Boot",
+    icon: <SiSpringboot className="w-5 h-5" />,
+    color: "bg-[#6DB33F]",
+  },
+  {
+    name: "SQL Server",
+    icon: <FaDatabase className="w-5 h-5" />,
+    color: "bg-[#CC2927]",
+  },
+  {
+    name: "Python",
+    icon: <FaPython className="w-5 h-5" />,
+    color: "bg-[#306998]",
+  },
+];
 
 export default function TechCarousel() {
-  const doubled = [...technologies, ...technologies]
+  const doubled = [...technologies, ...technologies];
 
   return (
     <section className="py-16 bg-zinc-100 dark:bg-zinc-900">
@@ -38,5 +121,5 @@ export default function TechCarousel() {
         </div>
       </div>
     </section>
-  )
+  );
 }

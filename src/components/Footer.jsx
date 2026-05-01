@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer id="contact" className="border-t border-zinc-200 dark:border-zinc-800">
+    <footer id="contact" className="border-t border-zinc-200 dark:border-zinc-800 bg-zinc-100 dark:bg-zinc-900">
       <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
         <a href="#" className="text-xl font-bold tracking-tight">
           Dev<span className="text-blue-600 dark:text-blue-400">Labs</span>
@@ -8,7 +8,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-4">
           <a
-            href="https://github.com"
+            href="https://github.com/ELDSC/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 rounded-lg bg-zinc-900 dark:bg-zinc-700 flex items-center justify-center hover:opacity-80 transition-opacity"
@@ -18,7 +18,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/sarango_josue"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 rounded-lg bg-zinc-900 dark:bg-zinc-700 flex items-center justify-center hover:opacity-80 transition-opacity"
@@ -28,7 +28,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://wa.me"
+            href="https://wa.me/51947102850"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 rounded-lg bg-zinc-900 dark:bg-zinc-700 flex items-center justify-center hover:opacity-80 transition-opacity"
