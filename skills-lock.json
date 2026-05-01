@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "web-prototype": {
+      "source": "nexu-io/open-design",
+      "sourceType": "github",
+      "skillPath": "skills/web-prototype/SKILL.md",
+      "computedHash": "440071aab78836d2ea340153a20d9fb0c19ddce49de38400cecd7edbe8254a83"
+    }
+  }
+}
